@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+ 
+}
+.blogpost-meta{
+
+  justify-content: space-between;
+  display: flex;
+}
+.author-info{
+  margin: 12px 0px ;
+}
+.author-info div{
+padding: 4px 0px;
+font-family: var(--font1);
+}
+.blog-post-content h1 {
+  text-align: center;
+}
+
+.navigation {
+  display: inline-block;
+  margin-top: 23px;
+  font-family: var(--font1);
+  height: 74px;
+  /*background-color: bisque;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
